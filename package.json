@@ -1,0 +1,24 @@
+{
+  "name": "crypto-market-bull-api",
+  "version": "1.0.0",
+  "description": "cryptocurrencies rank, chart and exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cryptocurrencies"
+  ],
+  "author": "mrakhalf",
+  "license": "ISC",
+  "dependencies": {
+    "coinmarketcap-api": "^3.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-bearer-token": "^2.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
